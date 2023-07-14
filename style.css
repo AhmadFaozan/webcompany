@@ -1,0 +1,86 @@
+   /* navbar */
+   .navbar-brand {
+        padding-left: 12rem;
+        font-weight: bold; /* Membuat tulisan menjadi tebal */
+    }
+
+    .navbar-nav .nav-link:hover {
+        background-color: #e9ecef;
+    }
+
+    .dropdown-menu .dropdown-item:hover{
+        background-color: #696969;
+    }
+
+    /* card our values */
+    .card-container {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    height: 50vh;
+    max-width: 1000px;
+  }
+  
+  .card {
+    margin: 10px;
+    width: 300px;
+    background-color: rgb(245, 76, 76);
+    text-align: center;
+    padding: 50px;
+    
+  }
+  
+  .card-image {
+    width: 50px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .card-text {
+    color: white;
+    font-size: 12px;
+  }
+
+  /* .form-container {
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    
+  } */
+
+  /* form contact us */
+  .custom-button{
+        width: 100%;
+  }
+
+  .form-control {
+    width: 100%;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .form-control.error {
+    border-color: red;
+    box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.5);
+  }
+
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  
+      
+  
